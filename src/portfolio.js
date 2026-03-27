@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rupali Kirange",
+  title: "Hi all, I'm Rupali",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Cloud Technology Lead with 7+ years of DevOps and AWS expertise 🚀 Specialized in cloud migrations, Kubernetes, Terraform, Infrastructure as Code, and CI/CD automation. Passionate about transforming infrastructure and leading teams to deliver excellence."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "",
+  linkedin: "https://www.linkedin.com/in/rupali-kirange/",
+  gmail: "rupalikirange@devopscloudautomation.in",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "EXPERIENCED DEVOPS ENGINEER SPECIALIZING IN CLOUD MIGRATIONS AND INFRASTRUCTURE AUTOMATION",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and implement scalable AWS cloud infrastructure using Terraform and IaC practices"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Orchestrate containerized applications with Docker, Kubernetes, and Helm across multiple environments"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Automate CI/CD pipelines using Jenkins, GitHub Actions, and Codefresh for seamless deployments"
+    ),
+    emoji(
+      "⚡ Lead cloud migration initiatives and architect infrastructure for optimal performance and security"
     )
   ],
 
@@ -65,57 +68,61 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-cube"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-cogs"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fas fa-sitemap"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "GitHub Actions",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Ansible",
+      fontAwesomeClassname: "fas fa-cogs"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Helm",
+      fontAwesomeClassname: "fas fa-shield-alt"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Shell Scripting",
+      fontAwesomeClassname: "fas fa-terminal"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
-      skillName: "python",
+      skillName: "Jira",
+      fontAwesomeClassname: "fas fa-tasks"
+    },
+    {
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Grafana",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    } 
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +133,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Savitribai Phule Pune University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor of Engineering in Computer Science",
+      duration: "2014 - 2018",
+      desc: "JSPM's Rajarshi Shahu College of Engineering, Pune, Maharashtra, India",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Grade: 80.5%",
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,16 +151,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "AWS Cloud Services", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Kubernetes & Container Orchestration",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Infrastructure as Code (Terraform)",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "CI/CD Pipelines",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Scripting (Shell, Python)",
+      progressPercentage: "80%"
+    }
+    {
+      Stack: "Monitoring & Observability (Grafana)",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +184,56 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Technology Lead – Cloud Professional (Client: VISA)",
+      company: "Infosys",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "October 2025 – Present",
+      desc: "Spearheading a two-phase cloud modernization initiative for VISA legacy applications with enhanced scalability and DevOps maturity.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Phase 1: Migrated monolithic applications to AWS using GitHub Actions, reducing deployment time by 30%",
+        "Phase 2: Containerized apps with Docker, deployed via EKS using Helm charts for high availability",
+        "Implemented infrastructure as code (IaC), security best practices, and cost optimization strategies"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "AWS DevOps Engineer (Client: ANZ)",
+      company: "Infosys",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "April 2025 – September 2025",
+      desc: "Led migration of ANZ services from third-party cloud to AWS using Lift-and-Shift approach with full infrastructure automation.",
+      descBullets: [
+        "Migrated services using Terraform IaC scripts for reproducible infrastructure provisioning",
+        "Automated CI/CD pipelines with Docker and Codefresh, reducing manual effort by 85%",
+        "Designed Helm charts and managed EKS deployments across 6 environments with 100% availability",
+        "Resolved 90% of Helm/EKS issues ensuring seamless production readiness"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "AWS DevOps Engineer – API Migration (Client: Danske Bank)",
+      company: "Infosys",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "February 2024 – February 2025",
+      desc: "Successfully delivered Danske Bank API migration to AWS across 3 environments with end-to-end automation.",
+      descBullets: [
+        "Delivered API migration using Terraform, covering Test, Syst, and Prod environments",
+        "Automated AWS deployment pipelines, reducing manual intervention by 90%",
+        "Applied networking expertise to integrate on-premises applications with AWS services",
+        "Enhanced deployment reliability and reduced downtime by 30% through CI/CD automation"
+      ]
+    },
+    {
+      role: "Migration Lead – JIRA Cloud Transition (Client: Avis Budget Group)",
+      company: "Tata Consultancy Services",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "August 2021 – November 2024",
+      desc: "Led successful migration of JIRA from on-premises to Atlassian SaaS impacting 100+ users with zero critical downtime.",
+      descBullets: [
+        "Conducted model analysis and aligned existing setup with desired cloud architecture",
+        "Executed migration across Sandbox, Pre-prod, and Prod environments with zero critical downtime",
+        "Utilized Jenkins, S3, and AWS Lambda for automation and issue resolution",
+        "Improved log management and operational efficiency by 25%",
+        "Provided comprehensive post-migration support and root cause analysis"
+      ]
     }
   ]
 };
@@ -248,54 +285,56 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional Certifications, Awards, and Recognition for Excellence in Cloud and DevOps",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Cloud Practitioner Certification",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Industry-recognized certification validating expertise in AWS cloud services and best practices.",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "AWS Certification",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certification",
+          url: ""
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Infosys Certified AWS Solution Architect Associate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Advanced certification demonstrating proficiency in AWS architecture design and implementation.",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "AWS Solution Architect",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certification",
+          url: ""
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Terraform – Infrastructure as Code Associate",
+      subtitle: "Certified in IaC best practices using Terraform for infrastructure provisioning and management.",
       image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Terraform Certification",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certification",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "Inspiring Leader Award",
+      subtitle: "Honored for leadership, initiative, and motivating team performance throughout key project phases.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Leadership Award",
+      footerLink: [
+        {
+          name: "Award",
+          url: ""
         }
       ]
     }
@@ -371,9 +410,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a cloud project or DevOps opportunity? My Inbox is open for all.",
+  number: "+91 9356675807",
+  email_address: "rupalikirange@devopscloudautomation.in"
 };
 
 // Twitter Section
