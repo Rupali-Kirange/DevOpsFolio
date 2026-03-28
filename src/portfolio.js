@@ -215,7 +215,7 @@ const workExperiences = {
       role: "AWS DevOps Engineer – API Migration (Client: Danske Bank)",
       company: "Infosys",
       companylogo: require("./assets/images/infosys.jpg"),
-      clientlogo: require("./assets/images/danske.jpg"),
+      clientlogo: require("./assets/images/danske.png"),
       date: "February 2024 – February 2025",
       desc: "Successfully delivered Danske Bank API migration to AWS across 3 environments with end-to-end automation.",
       descBullets: [
