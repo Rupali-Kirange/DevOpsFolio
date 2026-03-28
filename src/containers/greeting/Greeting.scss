@@ -1,42 +1,23 @@
 @import "../../_globalColor";
 
 .profile-image {
-  width: min(220px, 100%);
-  max-width: 220px;
+  width: 100%;
+  max-width: 360px;
   height: auto;
-  aspect-ratio: 4 / 5;
   object-fit: cover;
-  border-radius: 16px;
-  border: 3px solid var(--body-background);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
 }
 
 .greeting-image-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.75rem;
-  resize: none;
-  max-width: 460px;
+  padding: 0.5rem;
+  max-width: 360px;
   margin-left: auto;
   margin-right: auto;
-}
-
-
-.profile-image {
-  width: min(320px, 100%);
-  height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border-radius: 16px;
-  border: 3px solid var(--body-background);
-  max-width: 100%;
-}
-
-.greeting-image-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 
