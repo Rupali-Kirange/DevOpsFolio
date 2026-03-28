@@ -25,6 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Cloud Technology Lead with 7+ years of DevOps and AWS expertise 🚀 Specialized in cloud migrations, Kubernetes, Terraform, Infrastructure as Code, and CI/CD automation. Passionate about transforming infrastructure and leading teams to deliver excellence."
   ),
+  profileImage: require("./assets/images/profile.jpg"), // Update this with your file name / path
   resumeLink:
     "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -169,7 +170,7 @@ const techStack = {
     {
       Stack: "Scripting (Shell, Python)",
       progressPercentage: "80%"
-    }
+    },
     {
       Stack: "Monitoring & Observability (Grafana)",
       progressPercentage: "80%"
@@ -186,7 +187,8 @@ const workExperiences = {
     {
       role: "Technology Lead – Cloud Professional (Client: VISA)",
       company: "Infosys",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/infosys.jpg"),
+      clientlogo: require("./assets/images/visa.png"),
       date: "October 2025 – Present",
       desc: "Spearheading a two-phase cloud modernization initiative for VISA legacy applications with enhanced scalability and DevOps maturity.",
       descBullets: [
@@ -198,7 +200,8 @@ const workExperiences = {
     {
       role: "AWS DevOps Engineer (Client: ANZ)",
       company: "Infosys",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/infosys.jpg"),
+      clientlogo: require("./assets/images/anz.png"),
       date: "April 2025 – September 2025",
       desc: "Led migration of ANZ services from third-party cloud to AWS using Lift-and-Shift approach with full infrastructure automation.",
       descBullets: [
@@ -211,7 +214,8 @@ const workExperiences = {
     {
       role: "AWS DevOps Engineer – API Migration (Client: Danske Bank)",
       company: "Infosys",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/infosys.jpg"),
+      clientlogo: require("./assets/images/danske.jpg"),
       date: "February 2024 – February 2025",
       desc: "Successfully delivered Danske Bank API migration to AWS across 3 environments with end-to-end automation.",
       descBullets: [
@@ -224,7 +228,8 @@ const workExperiences = {
     {
       role: "Migration Lead – JIRA Cloud Transition (Client: Avis Budget Group)",
       company: "Tata Consultancy Services",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/Tata_Consultancy_Services_old_logo.svg.png"),
+      clientlogo: require("./assets/images/avis.png"),
       date: "August 2021 – November 2024",
       desc: "Led successful migration of JIRA from on-premises to Atlassian SaaS impacting 100+ users with zero critical downtime.",
       descBullets: [

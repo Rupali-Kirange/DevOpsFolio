@@ -91,6 +91,27 @@
   border-radius: 50%;
 }
 
+.experience-logos {
+  position: absolute;
+  top: 7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.experience-client-logo {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 0.25rem 0.5rem $lightBoxShadowDarker;
+  background: white;
+  padding: 0.25rem;
+}
+
 .experience-text-role {
   text-align: center;
   color: $textColor;
