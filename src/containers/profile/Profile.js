@@ -1,20 +1,26 @@
-import React, {useState, useEffect, lazy, Suspense} from "react";
+import React, {useState, useEffect} from "react";
 import {openSource} from "../../portfolio";
 import Contact from "../contact/Contact";
-import Loading from "../loading/Loading";
 
-const renderLoader = () => <Loading />;
-const GithubProfileCard = lazy(() =>
-  import("../../components/githubProfileCard/GithubProfileCard")
-);
 export default function Profile() {
-  const [prof, setrepo] = useState([]);
-  function setProfileFunction(array) {
-    setrepo(array);
-  }
+  if (openSource.display && openSource.showGithubProfile === "true") {
+    // Only import and use lazy loading when needed
+    const [GithubProfileCard, setGithubProfileCard] = useState(null);
+    const [prof, setrepo] = useState([]);
+    const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    if (openSource.showGithubProfile === "true") {
+    useEffect(() => {
+      import("../../components/githubProfileCard/GithubProfileCard").then(module => {
+        setGithubProfileCard(() => module.default);
+      });
+    }, []);
+
+    function setProfileFunction(array) {
+      setrepo(array);
+      setLoading(false);
+    }
+
+    useEffect(() => {
       const getProfileData = () => {
         fetch("/profile.json")
           .then(result => {
@@ -34,18 +40,13 @@ export default function Profile() {
           });
       };
       getProfileData();
+    }, []);
+
+    if (loading || !GithubProfileCard || (typeof prof === "string" || prof instanceof String)) {
+      return <Contact />;
     }
-  }, []);
-  if (
-    openSource.display &&
-    openSource.showGithubProfile === "true" &&
-    !(typeof prof === "string" || prof instanceof String)
-  ) {
-    return (
-      <Suspense fallback={renderLoader()}>
-        <GithubProfileCard prof={prof} key={prof.id} />
-      </Suspense>
-    );
+
+    return <GithubProfileCard prof={prof} key={prof.id} />;
   } else {
     return <Contact />;
   }
