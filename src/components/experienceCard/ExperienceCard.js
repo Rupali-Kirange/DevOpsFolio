@@ -40,11 +40,6 @@ export default function ExperienceCard({cardInfo, isDark}) {
       </div>
       <div className="experience-text-details">
         <div className="experience-logos">
-          <img
-            src={cardInfo.companylogo}
-            alt={cardInfo.company}
-            className="experience-logo"
-          />
           {cardInfo.clientlogo && (
             <img
               src={cardInfo.clientlogo}

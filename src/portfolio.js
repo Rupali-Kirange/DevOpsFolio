@@ -190,11 +190,11 @@ const workExperiences = {
       companylogo: require("./assets/images/infosys.jpg"),
       clientlogo: require("./assets/images/visa.png"),
       date: "October 2025 – Present",
-      desc: "Spearheading a two-phase cloud modernization initiative for VISA legacy applications with enhanced scalability and DevOps maturity.",
+      desc: "Driving multi-phase AWS modernization with IaC, Kubernetes, and cost governance for VISA core platforms.",
       descBullets: [
-        "Phase 1: Migrated monolithic applications to AWS using GitHub Actions, reducing deployment time by 30%",
-        "Phase 2: Containerized apps with Docker, deployed via EKS using Helm charts for high availability",
-        "Implemented infrastructure as code (IaC), security best practices, and cost optimization strategies"
+        "Architected repeatable Terraform pipeline for multitenant AWS infra with 30% deployment acceleration",
+        "Built EKS + Helm-based microservices delivery and GitHub Actions CI/CD with 99.9% reliability",
+        "Implemented security baseline with IAM least privilege, ECS policies, and auditor-ready monitoring"
       ]
     },
     {
@@ -203,12 +203,11 @@ const workExperiences = {
       companylogo: require("./assets/images/infosys.jpg"),
       clientlogo: require("./assets/images/anz.png"),
       date: "April 2025 – September 2025",
-      desc: "Led migration of ANZ services from third-party cloud to AWS using Lift-and-Shift approach with full infrastructure automation.",
+      desc: "Executed ANZ cloud migration from third-party IaaS to AWS with full pipeline automation and observability.",
       descBullets: [
-        "Migrated services using Terraform IaC scripts for reproducible infrastructure provisioning",
-        "Automated CI/CD pipelines with Docker and Codefresh, reducing manual effort by 85%",
-        "Designed Helm charts and managed EKS deployments across 6 environments with 100% availability",
-        "Resolved 90% of Helm/EKS issues ensuring seamless production readiness"
+        "Standardized Terraform modules for VPC, RDS, EKS and reduced environment spin-up time by 70%",
+        "Implemented GitOps CI/CD and auto-rollbacks in Codefresh for secure, zero-downtime deployments",
+        "Established Prometheus/Grafana observability, enabling 24/7 SLO tracking and alerting"
       ]
     },
     {
@@ -217,12 +216,11 @@ const workExperiences = {
       companylogo: require("./assets/images/infosys.jpg"),
       clientlogo: require("./assets/images/danske.png"),
       date: "February 2024 – February 2025",
-      desc: "Successfully delivered Danske Bank API migration to AWS across 3 environments with end-to-end automation.",
+      desc: "Delivered Danske Bank API migration with end-to-end automated provisioning, testing and release cycles.",
       descBullets: [
-        "Delivered API migration using Terraform, covering Test, Syst, and Prod environments",
-        "Automated AWS deployment pipelines, reducing manual intervention by 90%",
-        "Applied networking expertise to integrate on-premises applications with AWS services",
-        "Enhanced deployment reliability and reduced downtime by 30% through CI/CD automation"
+        "Implemented Terraform IaC and automated environment promotion (dev->qa->prod) with pipeline gating",
+        "Built AWS CodePipeline / EKS infrastructure for API services with 99.95% SLA",
+        "Integrated hybrid network connectivity with Transit Gateway, leveraging security controls"
       ]
     },
     {
@@ -231,13 +229,11 @@ const workExperiences = {
       companylogo: require("./assets/images/Tata_Consultancy_Services_old_logo.svg.png"),
       clientlogo: require("./assets/images/avis.png"),
       date: "August 2021 – November 2024",
-      desc: "Led successful migration of JIRA from on-premises to Atlassian SaaS impacting 100+ users with zero critical downtime.",
+      desc: "Led JIRA migration to Atlassian Cloud with automation, policy governance, and secure operations.",
       descBullets: [
-        "Conducted model analysis and aligned existing setup with desired cloud architecture",
-        "Executed migration across Sandbox, Pre-prod, and Prod environments with zero critical downtime",
-        "Utilized Jenkins, S3, and AWS Lambda for automation and issue resolution",
-        "Improved log management and operational efficiency by 25%",
-        "Provided comprehensive post-migration support and root cause analysis"
+        "Architected migration strategy and executed infrastructure automation using Terraform and Jenkins",
+        "Maintained zero critical downtime during phased rollout across sandbox, pre-prod, and prod",
+        "Implemented CI/CD and AWS-based data pipelines for backup, audit, and rollback in S3/Lambda"
       ]
     }
   ]
