@@ -9,25 +9,22 @@
 }
 
 .experience-logos {
-  position: static !important;
-  top: auto !important;
-  left: auto !important;
-  transform: none !important;
   display: flex;
   gap: 0.75rem;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  padding-top: 0.8rem;
+  margin-bottom: 1rem;
 }
 
-.experience-roundedimg {
-  position: static !important;
-  object-fit: cover;
-  width: 3.5rem !important;
-  height: 3.5rem !important;
-  box-shadow: none !important;
-  border-radius: 0 !important;
+.experience-logo,
+.experience-client-logo {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  border-radius: 6px;
+  border: 1px solid $lightBorder1;
+  background: #fff;
+  padding: 0.4rem;
 }
 
 .experience-client-logo {
@@ -151,12 +148,6 @@
   }
   .experience-text-date {
     font-size: 18px;
-  }
-  .experience-roundedimg {
-    width: 2.9rem !important;
-    height: 2.9rem !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
   }
 }
 
