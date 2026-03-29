@@ -190,11 +190,10 @@ const workExperiences = {
       companylogo: require("./assets/images/infosys.jpg"),
       clientlogo: require("./assets/images/visa.png"),
       date: "October 2025 – Present",
-      desc: "Driving multi-phase AWS modernization with IaC, Kubernetes, and cost governance for VISA core platforms.",
+      desc: "Leading AWS modernization for VISA with IaC and enterprise-grade DevOps.",
       descBullets: [
-        "Architected repeatable Terraform pipeline for multitenant AWS infra with 30% deployment acceleration",
-        "Built EKS + Helm-based microservices delivery and GitHub Actions CI/CD with 99.9% reliability",
-        "Implemented security baseline with IAM least privilege, ECS policies, and auditor-ready monitoring"
+        "Built Terraform/AWS baseline and GitHub Actions CI/CD for fast, compliant delivery",
+        "Deployed EKS + Helm microservices with SLOs and security controls"
       ]
     },
     {
@@ -203,11 +202,10 @@ const workExperiences = {
       companylogo: require("./assets/images/infosys.jpg"),
       clientlogo: require("./assets/images/anz.png"),
       date: "April 2025 – September 2025",
-      desc: "Executed ANZ cloud migration from third-party IaaS to AWS with full pipeline automation and observability.",
+      desc: "Migrated ANZ workloads to AWS and operationalized CI/CD/monitoring.",
       descBullets: [
-        "Standardized Terraform modules for VPC, RDS, EKS and reduced environment spin-up time by 70%",
-        "Implemented GitOps CI/CD and auto-rollbacks in Codefresh for secure, zero-downtime deployments",
-        "Established Prometheus/Grafana observability, enabling 24/7 SLO tracking and alerting"
+        "Deployed Terraform+EKS environments with templates and audit controls",
+        "Automated deployments with GitOps and built full observability stack"
       ]
     },
     {
@@ -216,11 +214,10 @@ const workExperiences = {
       companylogo: require("./assets/images/infosys.jpg"),
       clientlogo: require("./assets/images/danske.png"),
       date: "February 2024 – February 2025",
-      desc: "Delivered Danske Bank API migration with end-to-end automated provisioning, testing and release cycles.",
+      desc: "Executed Danske Bank API migration with automated pipeline and infrastructure reliability.",
       descBullets: [
-        "Implemented Terraform IaC and automated environment promotion (dev->qa->prod) with pipeline gating",
-        "Built AWS CodePipeline / EKS infrastructure for API services with 99.95% SLA",
-        "Integrated hybrid network connectivity with Transit Gateway, leveraging security controls"
+        "Delivered IaC-based API environment promotion flows (dev->qa->prod)",
+        "Built EKS services on CodePipeline with 99.95% SLA and hybrid network security"
       ]
     },
     {
@@ -229,11 +226,10 @@ const workExperiences = {
       companylogo: require("./assets/images/Tata_Consultancy_Services_old_logo.svg.png"),
       clientlogo: require("./assets/images/avis.png"),
       date: "August 2021 – November 2024",
-      desc: "Led JIRA migration to Atlassian Cloud with automation, policy governance, and secure operations.",
+      desc: "Delivered JIRA SaaS migration with infrastructure automation and zero downtime.",
       descBullets: [
-        "Architected migration strategy and executed infrastructure automation using Terraform and Jenkins",
-        "Maintained zero critical downtime during phased rollout across sandbox, pre-prod, and prod",
-        "Implemented CI/CD and AWS-based data pipelines for backup, audit, and rollback in S3/Lambda"
+        "Led Terraform/Jenkins automation and phased rollout with no outages",
+        "Built S3/Lambda backup and rollback pipeline for safe migration operations"
       ]
     }
   ]
