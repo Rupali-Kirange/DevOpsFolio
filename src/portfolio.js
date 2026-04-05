@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Rupali Kirange",
-  title: "Hi all, I'm Rupali",
+  title: "Hi, I'm Rupali",
   subTitle: emoji(
     "Cloud Technology Lead with 7+ years of DevOps and AWS expertise 🚀 Specialized in cloud migrations, Kubernetes, Terraform, Infrastructure as Code, and CI/CD automation. Passionate about transforming infrastructure and leading teams to deliver excellence."
   ),
