@@ -30,6 +30,20 @@ export default function AchievementCard({cardInfo, isDark}) {
       </div>
       <div className="certificate-card-footer">
         {cardInfo.footer.map((v, i) => {
+          if (v.download) {
+            return (
+              <a
+                key={i}
+                className={
+                  isDark ? "dark-mode certificate-tag" : "certificate-tag"
+                }
+                href={v.url}
+                download={v.downloadName || v.name}
+              >
+                {v.name}
+              </a>
+            );
+          }
           return (
             <span
               key={i}

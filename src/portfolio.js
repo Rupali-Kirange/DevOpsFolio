@@ -293,7 +293,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certification",
-          url: ""
+          url: "https://www.credly.com/badges/942e8001-5147-4172-998b-20180c893c70/linked_in?t=sknyp6"
         }
       ]
     },
@@ -329,8 +329,14 @@ const achievementSection = {
       imageAlt: "Leadership Award",
       footerLink: [
         {
-          name: "Award",
-          url: ""
+          name: "View Award",
+          url: "/Inspiring-Leader-Award.pdf"
+        },
+        {
+          name: "Download Award",
+          url: "/Inspiring-Leader-Award.pdf",
+          download: true,
+          downloadName: "Inspiring-Leader-Award.pdf"
         }
       ]
     }
