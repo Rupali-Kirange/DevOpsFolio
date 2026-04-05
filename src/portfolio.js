@@ -26,8 +26,7 @@ const greeting = {
     "Cloud Technology Lead with 7+ years of DevOps and AWS expertise 🚀 Specialized in cloud migrations, Kubernetes, Terraform, Infrastructure as Code, and CI/CD automation. Passionate about transforming infrastructure and leading teams to deliver excellence."
   ),
   profileImage: require("./assets/images/profile.jpg"), // Update this with your file name / path
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: true, // Set false to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -348,6 +347,14 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const contactInfo = {
+  title: "Contact Me",
+  subtitle:
+    "I am looking for relevant opportunities and open for DevOps roles where I can add strong value to the organization. Reach out via email or phone to start a conversation.",
+  number: "+91 9356675807",
+  email_address: "rupalikirange@devopscloudautomation.in"
+};
+
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
@@ -363,5 +370,6 @@ export {
   bigProjects,
   achievementSection,
   resumeSection,
+  contactInfo,
   isHireable
 };

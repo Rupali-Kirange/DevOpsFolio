@@ -11,6 +11,7 @@ import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import SplashScreen from "./splashScreen/SplashScreen";
+import Contact from "./contact/Contact";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
@@ -54,7 +55,7 @@ const Main = () => {
             <Projects />
             <StartupProject />
             <Achievement />
-
+            <Contact />
             <Footer />
             <ScrollToTopButton />
           </>
