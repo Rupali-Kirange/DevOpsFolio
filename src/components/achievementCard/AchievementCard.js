@@ -39,21 +39,25 @@ export default function AchievementCard({cardInfo, isDark}) {
                 }
                 href={v.url}
                 download={v.downloadName || v.name}
+                target="_blank"
+                rel="noreferrer"
               >
                 {v.name}
               </a>
             );
           }
           return (
-            <span
+            <a
               key={i}
               className={
                 isDark ? "dark-mode certificate-tag" : "certificate-tag"
               }
-              onClick={() => openUrlInNewTab(v.url, v.name)}
+              href={v.url}
+              target="_blank"
+              rel="noreferrer"
             >
               {v.name}
-            </span>
+            </a>
           );
         })}
       </div>

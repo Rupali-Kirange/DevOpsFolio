@@ -311,14 +311,15 @@ const achievementSection = {
       ]
     },
     {
-      title: "Terraform – Infrastructure as Code Associate",
-      subtitle: "Certified in IaC best practices using Terraform for infrastructure provisioning and management.",
+      title: "Infosys Certified Associate in IaC using Terraform",
+      subtitle:
+        "Certified for successfully completing the Infosys Terraform Associate program, validating infrastructure automation with Terraform.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "Terraform Certification",
       footerLink: [
         {
-          name: "View Certification",
-          url: ""
+          name: "View Certificate",
+          url: "/Infosys-Terraform-Associate.pdf"
         }
       ]
     },
@@ -331,12 +332,6 @@ const achievementSection = {
         {
           name: "View Award",
           url: "/Inspiring-Leader-Award.pdf"
-        },
-        {
-          name: "Download Award",
-          url: "/Inspiring-Leader-Award.pdf",
-          download: true,
-          downloadName: "Inspiring-Leader-Award.pdf"
         }
       ]
     }
