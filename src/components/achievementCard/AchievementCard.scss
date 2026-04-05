@@ -55,23 +55,27 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.certificate-card-footer a.certificate-tag,
 .certificate-card-footer span.certificate-tag {
   background: $buttonColor;
-  color: $lightBackground3;
-  vertical-align: middle;
-  align-items: center;
-  border-radius: 4px;
+  color: $textColorDark;
+  border: solid 1px $buttonColor;
+  font-weight: 700;
   display: inline-flex;
-  font-size: 0.75rem;
-  height: 2em;
   justify-content: center;
-  white-space: nowrap;
-  line-height: 1.5;
-  margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
+  align-items: center;
+  text-transform: uppercase;
+  border-radius: 6px;
+  padding: 13px 22px;
+  margin: 10px 0.5rem 0.5rem 0;
+  text-decoration: none;
+  font-size: 0.95rem;
   cursor: pointer;
-  transition: 0.2s ease-in;
+  transition: all 0.3s ease-in-out 0s;
 }
-span.certificate-tag:hover {
-  background: $buttonHover;
+.certificate-card-footer a.certificate-tag:hover,
+.certificate-card-footer span.certificate-tag:hover {
+  background: $darkBoxShadow2;
+  color: $buttonColor;
+  transform: translateY(-3px);
 }
