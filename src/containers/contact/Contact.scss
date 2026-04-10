@@ -49,9 +49,12 @@
 
 .contact-actions {
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
-.button-resume {
+.button-resume,
+.button-email {
   width: auto;
 }
 

@@ -24,6 +24,9 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-actions">
+            <a href={`mailto:${contactInfo.email_address}`}>
+              <Button text="Let's connect" className="button-email" />
+            </a>
             <a href="/Rupali-Kirange-DevOps-Resume.pdf" download="Rupali-Kirange-DevOps-Resume.pdf">
               <Button text="Download Resume" className="button-resume" />
             </a>

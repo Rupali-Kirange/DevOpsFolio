@@ -319,7 +319,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certificate",
-          url: "/Infosys-Terraform-Associate.pdf"
+          url: "/Infosys-Terraform-Associate.jpg"
         }
       ]
     },
@@ -331,7 +331,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Award",
-          url: "/Inspiring-Leader-Award.pdf"
+          url: "/Inspiring-Leader-Award.jpg"
         }
       ]
     }
@@ -351,9 +351,11 @@ const resumeSection = {
 const contactInfo = {
   title: "Contact Me",
   subtitle:
-    "I am looking for relevant opportunities and open for DevOps roles where I can add strong value to the organization. Reach out via email or phone to start a conversation.",
+    "Open for DevOps roles and ready to add strong value. Let’s connect via email or phone.",
   number: "+91 9356675807",
-  email_address: "rupalikirange@devopscloudautomation.in"
+  email_address: "rupalikirange@devopscloudautomation.in",
+  buttonText: "Let's talk",
+  buttonLink: "mailto:rupalikirange@devopscloudautomation.in"
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
